@@ -1,0 +1,53 @@
+.nav-link {
+  color: white !important;
+  border-bottom: 2px solid #7198bd;
+  }
+  
+.nav-menu:hover {
+  color: #343563 !important;
+  border-bottom: 2px solid #343563
+}
+
+.navbar-brand:hover {
+  color: #343563 !important;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav.navbar {
+  font-size: 14px;
+  background-color: #7198bd;
+}
+
+main {
+  /* Scroll horizontally as needed */
+  overflow-x: auto;
+
+  /* Center contents */
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+#contact {
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #343563 !important
+}
+
+#contact:hover {
+  background-color:  #4e6087;
+  color: white !important
+}
+i {
+  color: #7198bd 
+
+}
+
+i:hover {
+  color: #343563
+}
