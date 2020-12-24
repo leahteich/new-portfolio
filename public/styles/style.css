@@ -3,22 +3,27 @@
   border-bottom: 2px solid #7198bd;
   }
   
-.nav-menu:hover {
+.nav-menu:hover, a.active{
   color: #343563 !important;
   border-bottom: 2px solid #343563
 }
 
+
 .navbar-brand:hover {
   color: #343563 !important;
 }
+
 
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
 nav.navbar {
+  overflow: hidden;
   font-size: 14px;
   background-color: #7198bd;
+  padding-top: 20px;
+  padding-bottom:15px;
 }
 
 main {
@@ -29,6 +34,15 @@ main {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: black;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color:white
 }
 
 #contact {
