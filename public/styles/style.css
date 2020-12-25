@@ -29,7 +29,7 @@
 
 body
 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav.navbar
@@ -77,14 +77,13 @@ main
   color: white !important
 }
 
-.fab
+.foot, .foottext
 {
   color: #7198bd 
 
 }
 
-
-.fab:hover
+.foot:hover
 {
   color: #343563
 }
@@ -99,3 +98,12 @@ body
   font-size: 16px
 }
 
+.icons 
+{
+  font-size: 20px
+}
+
+.col-sm
+{
+  text-align: center;
+}
