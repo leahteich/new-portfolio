@@ -1,24 +1,39 @@
-.nav-link {
+.nav-link
+{
   color: white !important;
   border-bottom: 2px solid #7198bd;
   }
   
-.nav-menu:hover, a.active{
+.nav-menu:hover, a.active
+{
   color: #343563 !important;
   border-bottom: 2px solid #343563
 }
 
+.textcontent
+{
+  width: 50%;
+  text-align: left;
+}
 
-.navbar-brand:hover {
+
+.navbar-brand:hover
+{
   color: #343563 !important;
 }
 
+.rounded
+{
+  border-radius: 35% !important;
+}
 
-body {
+body
+{
   font-family: 'Open Sans', sans-serif;
 }
 
-nav.navbar {
+nav.navbar
+{
   overflow: hidden;
   font-size: 14px;
   background-color: #7198bd;
@@ -26,7 +41,8 @@ nav.navbar {
   padding-bottom:15px;
 }
 
-main {
+main
+{
   /* Scroll horizontally as needed */
   overflow-x: auto;
 
@@ -36,7 +52,8 @@ main {
   color: black;
 }
 
-.footer {
+.footer
+{
   left: 0;
   bottom: 0;
   width: 100%;
@@ -45,7 +62,8 @@ main {
   background-color:white
 }
 
-#contact {
+#contact
+{
   background-color: white;
   border-radius: 20px;
   padding-left: 20px;
@@ -53,15 +71,31 @@ main {
   color: #343563 !important
 }
 
-#contact:hover {
+#contact:hover
+{
   background-color:  #4e6087;
   color: white !important
 }
-i {
+
+.fab
+{
   color: #7198bd 
 
 }
 
-i:hover {
+
+.fab:hover
+{
   color: #343563
 }
+
+.me
+{
+  margin: 20px;
+}
+
+body 
+{
+  font-size: 16px
+}
+

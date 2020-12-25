@@ -14,9 +14,9 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 //app.use(favicon(__dirname + '/public/images/logo.png'));
 
-var port = process.env.PORT || 3000; //||8000
+var port = process.env.PORT || 3000; 
 app.listen(port, function(){
-  console.log('Easy server listening for requests on localhost:'+ port+'!');
+  console.log('Server running on localhost:'+ port);
 });
 
 app.get('/', function(request, response){
