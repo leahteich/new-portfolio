@@ -19,18 +19,19 @@
 
 .navbar-brand:hover
 {
+  font-family: 'Montserrat';
   color: #343563 !important;
 }
 
+.navbar-brand 
+{
+  font-family: 'Montserrat';
+}
 .rounded
 {
   border-radius: 35% !important;
 }
 
-body
-{
-  font-family: 'Montserrat', sans-serif;
-}
 
 nav.navbar
 {
@@ -49,7 +50,7 @@ main
   /* Center contents */
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: #343563;
 }
 
 .footer
@@ -60,6 +61,11 @@ main
   color: white;
   text-align: center;
   background-color:white
+}
+
+.front
+{
+  margin-top: 80px
 }
 
 #contact
@@ -83,14 +89,36 @@ main
 
 }
 
+h1, a
+{
+  color: #a178ab
+}
+
+h1
+{
+  font-weight: 10px;
+  font-style: bold;
+}
+
+a:hover
+{
+  color: #81608a;
+}
+
 .foot:hover
 {
-  color: #343563
+  color:#add8ff
 }
 
 .me
 {
-  margin: 20px;
+  margin-bottom:30px;
+  box-shadow:-20px 20px 0px #ddc3e3
+}
+
+.links
+{
+  box-shadow:-7px 7px 0px#7198bd;
 }
 
 body 
@@ -100,10 +128,27 @@ body
 
 .icons 
 {
-  font-size: 20px
+  font-size: 20px;
 }
 
+.cont 
+{
+  color: #343563;
+}
 .col-sm
 {
   text-align: center;
+}
+
+.card-header
+{
+  border-bottom: 0px;
+  margin: auto;
+  background-color: transparent;
+  font-size: 20px
+}
+
+.card-text
+{
+  font-style: italic;
 }
