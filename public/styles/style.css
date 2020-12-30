@@ -16,7 +16,6 @@
   text-align: left;
 }
 
-
 .navbar-brand:hover
 {
   font-family: 'Montserrat';
@@ -94,7 +93,7 @@ h1, a
   color: #a178ab
 }
 
-h1
+h1 
 {
   font-weight: 10px;
   font-style: bold;
@@ -116,9 +115,16 @@ a:hover
   box-shadow:-20px 20px 0px #ddc3e3
 }
 
-.links
+.links:hover
 {
-  box-shadow:-7px 7px 0px#7198bd;
+  box-shadow:-10px 10px 0px #ddc3e3 !important;
+  color: grey !important;
+}
+
+
+.links 
+{
+  border-width: 0px;
 }
 
 body 
@@ -142,13 +148,24 @@ body
 
 .card-header
 {
-  border-bottom: 0px;
   margin: auto;
+  padding-bottom: 0px;
   background-color: transparent;
-  font-size: 20px
+  font-size: 20px;
+  border-width: 0px
 }
 
 .card-text
 {
+  padding-top: 10px;
   font-style: italic;
+}
+
+.card, .socials
+{
+  color: #343563;
+}
+
+a {
+  text-decoration: none !important;
 }
