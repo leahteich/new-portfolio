@@ -5,7 +5,6 @@ var app = express();
 var methodOverride = require('method-override');
 const apirequest = require('request');
 
-
 app.use(methodOverride('_method'));
 app.use(express.urlencoded());
 
@@ -37,6 +36,12 @@ app.get('/contact', function(request, response){
   response.render('contact');
 });
 
+app.get('/courses', function(request, response){
+    response.status(200);
+    response.locals.title = "Courses";
+    response.render('courses');
+  });
+
 app.get('/projects', function(request, response){
   response.status(200);
   response.locals.title = "Projects";
@@ -50,8 +55,14 @@ app.get('/resume', function(request, response){
 });
 
 app.get('/writing', function(request, response){
-    response.status(200);
-    response.locals.title = "Writing";
-    response.render('writing');
-  });
-  
+  response.status(200);
+  response.locals.title = "Writing";
+  response.render('writing');
+});
+
+app.get('/pdf', function(request, response){
+  response.status(200);
+  response.locals.title = "Resume PDF";
+  response.render('pdf');
+});
+    

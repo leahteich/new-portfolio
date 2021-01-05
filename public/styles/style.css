@@ -3,7 +3,12 @@
   color: white !important;
   border-bottom: 2px solid #7198bd;
   }
-  
+
+li 
+{
+  text-align:left
+}
+
 .nav-menu:hover, a.active
 {
   color: #343563 !important;
@@ -168,4 +173,14 @@ body
 
 a {
   text-decoration: none !important;
+}
+
+hr
+{
+  width: 70%;
+}
+
+.aligned-left
+{
+  text-align:left;
 }

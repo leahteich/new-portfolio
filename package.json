@@ -1,8 +1,9 @@
 {
-  "name": "Congress",
+  "name": "Portfolio",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "ejs": "^2.6.1",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
